@@ -14,7 +14,7 @@
             img(src="@/assets/curso/temas/t6/t6_01.svg", alt="alt")
 
         .col-lg-8(data-aos="fade-left")
-          p El modelo C4 es la técnica de notación gráfica utilizada para modelar la arquitectura de sistemas de #[em software].Se basa en la descomposición de la estructura del sistema en contenedores y componentes.
+          p El modelo C4 es la técnica de notación gráfica utilizada para modelar la arquitectura de sistemas de #[em software]. Se basa en la descomposición de la estructura del sistema en contenedores y componentes.
 
           .row.mb-4
             .col-auto.d-none.d-lg-flex
@@ -24,7 +24,7 @@
               p.mb-0 Del mismo modo, el modelo C4 hace relación a un conjunto ordenado de diagramas en arquitectura de #[em software] para relacionar el contexto, contenedores, los componentes y el código realizado. Además, las 4C, hacen referencia a contexto, contenedores, componentes y clases o código.
 
           .cajon.cjn--yellow.p-4(data-aos="zoom-in")
-            p.mb-0 El consultor Simón Brown propuso el modelo C4, el cual permite visualizar y comunicar las arquitecturas de #[em software] de manera sencilla y efectiva, propone el poder hacer “zoom in/zoom out” para variar los detalles dependiendo de los objetivos y la aplicación que se programa. El modelo C4 es la manera más sencilla de hacer entender la arquitectura del #[em software] en sus diferentes niveles de abstracción, es decir se deben saber explicar bien en cada una de las fases del modelo C4. Es como si se aplicara un Zoom a Google Maps, para ir visualizando lo que se necesita investigar o conocer.        
+            p.mb-0 El consultor Simón Brown propuso el modelo C4, el cual permite visualizar y comunicar las arquitecturas de #[em software] de manera sencilla y efectiva, propone el poder hacer “#[em zoom in/zoom out]” para variar los detalles dependiendo de los objetivos y la aplicación que se programa. El modelo C4 es la manera más sencilla de hacer entender la arquitectura del #[em software] en sus diferentes niveles de abstracción, es decir se deben saber explicar bien en cada una de las fases del modelo C4. Es como si se aplicara un #[em Zoom] a Google Maps, para ir visualizando lo que se necesita investigar o conocer.        
 
     .row.justify-content-center.align-items-center
       .col-lg-7.order-2.order-lg-1(data-aos="fade-left")

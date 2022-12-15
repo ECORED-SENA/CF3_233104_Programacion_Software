@@ -7,7 +7,7 @@
         span 4
       h1 Diagrama de actividades
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-left")
         p Estos son diagramas de comportamiento que se utilizan para representar una sucesión de actividades, explican el flujo de operaciones desde el punto en que inician hasta el punto final definiendo una variedad de caminos de decisiones en el desarrollo de eventos que abarca una actividad. (Booch, G. (1994). Ellos permiten visualizar un caso de uso específico a un nivel más preciso, ilustrando el flujo de actividades definidas en un sistema.
         p A continuación, podrá conocer los beneficios del diagrama de actividades
@@ -41,7 +41,7 @@
     p(data-aos="fade-left").mb-5 Un diagrama de actividades contiene fundamentalmente los siguientes elementos:
 
     TabsA.color-acento-botones(data-aos="zoom-in")
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Flujo entre actividades")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Actividad")
         h4 Actividad
         .row.justify-content-center
           .col-xl-7.mb-4.mb-xl-0
@@ -56,7 +56,9 @@
               img(src="@/assets/curso/temas/t4/t4_03.svg", alt="alt")
 
           .cajon.cjn--yellow.p-4.mt-4
-            p.mb-0 Como se muestra en el ejemplo anterior, el flujo inicia con la actividad autenticar usuario y pasa por un nodo de decisión que verifica si el usuario existe no o no, si el usuario existe pasa a un nodo de decisión donde valida el usuario y si no es correcto, muestra un mensaje de error, si es correcto da acceso a la aplicación y muestra el menú inicio.
+            p.mb-3 Para nombrar las actividades se usan verbos del modelo de negocio como, por ejemplo: 
+            p Buscar factura, realizar pago y renovar lista, etc.
+
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Flujo entre actividades")
         h4 Flujo entre actividades
@@ -69,7 +71,7 @@
             figure
               img(src="@/assets/curso/temas/t4/t4_02.svg", alt="alt")
 
-        p.mb-0 Cuando los flujos de actividades utilizan condiciones para su acción se representan mediante un rombo y son llamados nodos de decisión
+        p.mb-0 Cuando los flujos de actividades utilizan condiciones para su acción se representan mediante un rombo y son llamados nodos de decisión.
 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Nodo inicial ")
         h4 Nodo inicial 
@@ -82,7 +84,7 @@
             figure
               img(src="@/assets/curso/temas/t4/t4_04.svg", alt="alt")
 
-      .tarjeta.color-acento-botones--borde.p-4(titulo="Nodo inicial ")
+      .tarjeta.color-acento-botones--borde.p-4(titulo="Nodo final ")
         h4 Nodo final
         .row.justify-content-center
           .col-12.mb-4
@@ -115,7 +117,7 @@
     .row.justify-content-center.top--negMargin(data-aos="fade").mb-5
       .col-lg-10
         .crd.bg--gray.shadow.brd--rad_01.p-4
-          p.mb-0 Durante el proceso de desarrollo del #[em software] se deben implementar las fases en orden y obligatorias para dar calidad el #[em software], adelantándose a una entrega de programa con unos resultados finales esperados, ofreciendo a los usuarios finales la seguridad, eficiencia, estabilidad y fiabilidad de su uso.
+          p.mb-0 A continuación, se realiza un ejemplo de un diagrama de actividades que tiene las funcionalidades de iniciar sesión y registrar en un sistema, por lo que se le invita a revisar el siguiente recurso de aprendizaje.
 
     h3(data-aos="fade-right") Diagrama de actividades
     p(data-aos="fade-left").mb-5 Ejemplo de diagramas de actividades
@@ -133,7 +135,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t4/t4_08.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En caso de no existir el usuario pasa a la actividad de registrar usuario y después ingresa datos, luego sigue a un nuevo nodo de decisión, donde valida datos y da acceso a la aplicación por lo que sigue el flujo de actividad mostrando la interfaz del menú del sistema y finalmente termina la actividad con un nodo final.
+        p.mb-0 #[strong En caso de no existir el usuario pasa a la actividad de registrar usuario y después ingresa datos, luego sigue a un nuevo nodo de decisión, donde valida datos y da acceso a la aplicación por lo que sigue el flujo de actividad mostrando la interfaz del menú del sistema y finalmente termina la actividad con un nodo final.]
 
 
 

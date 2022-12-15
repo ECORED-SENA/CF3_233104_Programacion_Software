@@ -19,7 +19,7 @@
             figure
               img(src="@/assets/curso/recursos/rectangle_00.svg", alt="alt").img30
           .col
-            p.mb-0 Cuando se realiza la recolección de requerimientos de un cliente, UML por medio de sus casos de uso permite el modelado de estos requerimientos. Los stackholders (actores externos) que están interesados en el producto son incluidos en el modelado con las funcionalidades requeridas (casos de uso) estos a su vez son modelados incluyendo relaciones y asociaciones jerárquicamente divididas entre ellos.
+            p.mb-0 Cuando se realiza la recolección de requerimientos de un cliente, UML por medio de sus casos de uso permite el modelado de estos requerimientos. Los #[em stackholders] (actores externos) que están interesados en el producto son incluidos en el modelado con las funcionalidades requeridas (casos de uso) estos a su vez son modelados incluyendo relaciones y asociaciones jerárquicamente divididas entre ellos.
 
         .cajon.cjn--yellow.p-4(data-aos="zoom-in")
           p.mb-0 Quienes especifican los requerimientos de un cliente son los casos de uso y sus actores, qué es la expectativa que cada uno tiene del sistema, sin tener en cuenta la funcionalidad que se realizará. Los análisis de requisitos se realizan para diferentes procesos no necesariamente para desarrollos de #[em software]. Entre los diagramas más relevantes (y más utilizados) que se encuentran en UML están los diagramas de casos de uso, por lo que a continuación se realiza una definición más detallada de ellos.
@@ -41,7 +41,7 @@
     #t_2_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 2.2 Componentes de los diagramas de casos de uso
 
-    .fullbg.bg--blueGradient.mb-5
+    .fullbg02.bg--blueGradient.mb-5
       figure(data-aos="zoom-in")
         img(src="@/assets/curso/temas/t2/t2_03.png", alt="alt")
       .row.justify-content-center.top--negMargin(data-aos="fade").mb-5
@@ -66,16 +66,16 @@
           .bg--gray.p4.brd--rad_02.p-4
             figure.mb-4
               img(src="@/assets/curso/temas/t2/t2_06.svg", alt="alt").img90.m-auto
-            h4.text-center Caso de uso
+            h4.text-center Caso de uso    
 
-    .row.mb-5(data-aos="fade-right")
+    .row.mb-5
       .col-auto
         .cstmH3
           h3.mb-0 Actor
 
     .row.justify-content-center.align-items-center.mb-5
       .col-xl-8
-        p(data-aos="fade-left") Especifica un rol que ejecutará un usuario, representa a una persona o grupo de personas que interactúan con un #[em software], se representa mediante un hombre de palo “stick man” con el nombre del actor (obligatorio). El uso de los actores se realiza para mostrar la clase de usuario que participará en el sistema el cuál será el encargado de realizar una función, por lo que los nombres de los actores normalmente inician con Mayúscula.
+        p(data-aos="fade-left") Especifica un rol que ejecutará un usuario, representa a una persona o grupo de personas que interactúan con un #[em software], se representa mediante un hombre de palo “#[em stick man]” con el nombre del actor (obligatorio). El uso de los actores se realiza para mostrar la clase de usuario que participará en el sistema el cuál será el encargado de realizar una función, por lo que los nombres de los actores normalmente inician con Mayúscula.
 
         p(data-aos="fade-left").mb-4 Existen varios tipos de actores según (Larman, 2002), los cuales se describen en la siguiente figura:
 
@@ -154,7 +154,7 @@
     p(data-aos="fade-left") Un actor interactúa con un caso de uso y está representado por una relación su símbolo es una línea o una flecha, la cual se muestra en la figura que se observa a continuación:
 
     .row.justify-content-center.mb-5
-      .col-lg-6(data-aos="zoom-in")
+      .col-lg-6.mb-4.mb-lg-0(data-aos="zoom-in")
         .titulo-sexto.color-acento-botones          
           span Representación gráfica de una relación de caso de uso en UML
         .bg--paleBlue.p-4         
@@ -167,7 +167,7 @@
         ul.fa-ul
           li
             i.fa-li.fas.fa-check-circle.txt--mint
-            | La relación entre un actor y un caso de uso se llama relación de comunicación, esta se distingue por los actores pasivos o activos.
+            | La relación entre un actor y un caso de uso se llama #[strong relación de comunicación], esta se distingue por los actores pasivos o activos.
           .hr_line
           li
             i.fa-li.fas.fa-check-circle.txt--mint
@@ -196,8 +196,8 @@
           .p-4
             p.text-white.mb-0 Entre el comerciante y la generación de la factura.
 
-      .col-lg-3.col-md-4.col-10(data-aos="flip-left")
-        .bg--Blue.hg--100.mb-4.mb-md-0
+      .col-lg-3.col-md-4.col-10.mb-4.mb-md-0(data-aos="flip-left")
+        .bg--Blue.hg--100
           figure
             img(src="@/assets/curso/temas/t2/t2_15.png", alt="alt")
           .p-4
@@ -242,7 +242,7 @@
 
       .col-xl-5(data-aos="zoom-in")
         .titulo-sexto.color-acento-botones          
-          span Representación gráfica de una relación de caso de uso en UML
+          span Representación gráfica de un caso de uso en UML
         .bg--paleBlue.p-4         
           figure
             img(src="@/assets/curso/temas/t2/t2_17.svg", alt="alt")
@@ -260,7 +260,7 @@
           .row.justify-content-center
             .col-lg-10
               .titulo-sexto.color-acento-botones          
-                span Representación gráfica de una relación de caso de uso en UML               
+                span Ejemplos casos de uso              
               figure
                 img(src="@/assets/curso/temas/t2/t2_19.svg", alt="alt")
 
@@ -283,12 +283,14 @@
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
-        figure
+        figure.d-none.d-lg-flex
           img(src="@/assets/curso/temas/t2/t2_21.svg", alt="alt")
+        figure.d-lg-none.d-flex
+          img(src="@/assets/curso/temas/t2/t2_21A.svg", alt="alt")
 
     .bloque-texto-g.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-5(data-aos="zoom-in")
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/t2/t2_02.png')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/t2/t2_32.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Además de la relación simple de comunicación que se muestra con anterioridad, existen más relaciones en los casos de uso que especifican más detalladamente las acciones entre estos y que se mencionan a continuación.
@@ -375,7 +377,7 @@
               img(src="@/assets/curso/temas/t2/t2_25.svg", alt="alt").img115.m-auto 
 
     .cajon.cjn--yellow.p-4.mb-5(data-aos="zoom-in")
-      p.mb-0 Tomando el ejemplo anterior Ejemplo 1, y con el propósito de perfeccionar el diagrama de casos de uso se pueden agregar unos nuevos casos de uso donde se visualicen las relaciones mencionadas anteriormente, la primera de ellas es la relación extends: 
+      p.mb-0 Tomando el ejemplo anterior Ejemplo 1, y con el propósito de perfeccionar el diagrama de casos de uso se pueden agregar unos nuevos casos de uso donde se visualicen las relaciones mencionadas anteriormente, la primera de ellas es la relación #[em extends]: 
 
     .bg--gray.p-5.mb-5
       .row.justify-content-center
@@ -385,7 +387,7 @@
 
         .col-lg-7(data-aos="zoom-in")
           .titulo-sexto.color-acento-botones            
-            span Ejemplos diagrama de caso de uso venta con relación extends
+            span Ejemplos diagrama de caso de uso venta con relación #[em extends]
           figure
             img(src="@/assets/curso/temas/t2/t2_26.svg", alt="alt")
 
@@ -396,11 +398,11 @@
       .row.justify-content-center
         .col-lg-5.mb-4.mb-lg-0(data-aos="fade-left")
           h3 &#60;&#60; #[em uses o include] &#62;&#62; 
-          p.mb-0 Este define la relación cuando una parte del comportamiento o acción es equivalente en más de un caso de uso y no se requiere duplicar la representación de su actuación. Por otro lado, para el Ejemplo 1, en el caso anterior se amplía con el siguiente requerimiento funcional: antes de que el usuario envié la factura puede realizar una búsqueda de facturas para seleccionarla y enviarla haciendo necesario incluir la relación &#60;&#60;include&#62;&#62;. Por lo que se vería así:
+          p.mb-0 Este define la relación cuando una parte del comportamiento o acción es equivalente en más de un caso de uso y no se requiere duplicar la representación de su actuación. Por otro lado, para el Ejemplo 1, en el caso anterior se amplía con el siguiente requerimiento funcional: antes de que el usuario envié la factura puede realizar una búsqueda de facturas para seleccionarla y enviarla haciendo necesario incluir la relación &#60;&#60;#[em include]&#62;&#62;. Por lo que se vería así:
 
         .col-lg-7(data-aos="zoom-in")
           .titulo-sexto.color-acento-botones            
-            span Ejemplos diagrama de caso de uso venta con relación include
+            span Ejemplos diagrama de caso de uso venta con relación #[em include]
           figure
             img(src="@/assets/curso/temas/t2/t2_27.svg", alt="alt")
 
@@ -521,7 +523,7 @@
           td 1. El actor da clic en la opción nuevo mensaje.<br>2. Se muestra un área de texto para escribir el mensaje.<br>3. El actor introduce el mensaje.<br>4. El sistema verifica datos y los almacena.<br>5. El profesor acepta y publica.
         tr(width="80%").crd--gray
           td #[strong Flujo alternativo ]
-          td 4ª.  Se hace una comprobación de los datos si no son correctos muestra mensaje de corrección.<br>4b. El profesor rechaza el mensaje de modo que no es publicado sino devuelto.
+          td 4a.  Se hace una comprobación de los datos si no son correctos muestra mensaje de corrección.<br>4b. El profesor rechaza el mensaje de modo que no es publicado sino devuelto.
         tr(width="20%")
           td #[strong PosCondiciones ]
           td Se publica y almacena el mensaje satisfactoriamente.
@@ -594,19 +596,19 @@
           .hr_line
           li
             i.fa-li.fas.fa-check-circle.txt--mint
-            | Para cada producto el cajero debe ingresar el código del producto en A de la ventana-1, si el usuario tiene más de un producto es opcional registrar la cantidad en E, una vez finalice el registro de todos los productos se presiona H.
+            | Para cada producto el cajero debe ingresar el #[strong código del producto en A de la ventana-1], si el usuario tiene más de un producto es opcional registrar la cantidad en #[strong E], una vez finalice el registro de todos los productos se presiona #[strong H].
           .hr_line
           li
             i.fa-li.fas.fa-check-circle.txt--mint
-            | El Sistema almacena los productos registrados. La visualización de la descripción y el precio del producto se muestra en B y en F de la Ventana-1.
+            | El Sistema almacena los productos registrados. La visualización de la descripción y el precio del producto se muestra en #[strong B] y en #[strong F] de la #[strong Ventana-1].
           .hr_line
           li
             i.fa-li.fas.fa-check-circle.txt--mint
-            | Para finalizar el cajero presiona el botón I para dar por finalizada la venta. 
+            | Para finalizar el cajero presiona el botón #[strong I] para dar por finalizada la venta. 
           .hr_line
           li
             i.fa-li.fas.fa-check-circle.txt--mint
-            | Luego el Sistema hace el cálculo y muestra en C el total de la venta.           
+            | Luego el Sistema hace el cálculo y muestra en #[strong C] el total de la venta.           
 
       .col-lg-5.col-8(data-aos="zoom-in")
         figure

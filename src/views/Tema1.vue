@@ -8,12 +8,12 @@
       h1 Características Lenguaje Unificado de Modelado (UML) 
 
     .fullbg.bg--gray.mb-5
-      .row.justify-content-center.align-items-center
-        .col-lg-3.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
+      .row.justify-content-center.align-items-center.py-4
+        .col-lg-3.col-md-6.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
           figure
             img(src="@/assets/curso/temas/t1/t1_01.png", alt="alt")
         .col-lg-9(data-aos="fade-left")
-          p Con el nacimiento de la Programación Orientada a Objetos (POO) se establecieron una variedad de lenguajes, métodos, simbologías usadas para detallar el desarrollo de los diferentes sistemas. Indudablemente esta situación generó un desconcierto en los programadores de #[em software]; tratando de darle solución a este inconveniente aparece el Lenguaje de Modelado Unificado (Unified Modeling Language –UML)
+          p Con el nacimiento de la Programación Orientada a Objetos (POO) se establecieron una variedad de lenguajes, métodos, simbologías usadas para detallar el desarrollo de los diferentes sistemas. Indudablemente esta situación generó un desconcierto en los programadores de #[em software]; tratando de darle solución a este inconveniente aparece el Lenguaje de Modelado Unificado (#[em Unified Modeling Language –UML])
 
           .row
             .col-auto.d-none.d-lg-flex
@@ -24,7 +24,7 @@
 
     .bloque-texto-g.cstm_right.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in")    
       .bloque-texto-g__texto.p-4
-        p.mb-0 “El UML (Lenguaje Unificado de Modelado) es una de las herramientas más emocionantes en el mundo actual del desarrollo de sistemas. Esto se debe a que permite a los creadores de sistemas generar diseños que capturen sus ideas en una forma convencional y fácil de comprender para comunicarlas a otras personas”(Schmuller,2000, p.24).
+        p “El UML (Lenguaje Unificado de Modelado) es una de las herramientas más emocionantes en el mundo actual del desarrollo de sistemas. Esto se debe a que permite a los creadores de sistemas generar diseños que capturen sus ideas en una forma convencional y fácil de comprender para comunicarlas a otras personas”. <br><br>Schmuller,2000, p.24.
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t1/t1_02.png')})`}"
       )
@@ -36,7 +36,7 @@
       h2 1.1 Evolución del Lenguaje Unificado de Modelado UML
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
+      .col-lg-3.col-md-6.col-8.mb-4.mb-lg-0(data-aos="zoom-in")
         figure
           img(src="@/assets/curso/temas/t1/t1_03.svg", alt="alt")
       .col-lg-9(data-aos="fade-left")
@@ -50,7 +50,7 @@
             figure
               img(src="@/assets/curso/recursos/rectangle_00.svg", alt="alt").img30
           .col
-            p.mb-0 La primera versión oficial UML 1. Se lanzó en el año de 1997 con la unión y liderato de Booch, Rumbaugh y Jacobson, la cual ofrece una metodología que contiene varios estándares, donde su principal objetivo es que todos los diagramas tengan coherencia. En el año 2005 se divulgó la versión de UML 2.0 cuyo contenido estaba orientado principalmente a la visión Orientada a Objetos, de ahí en adelante se realizan nuevas versiones basadas en UML 2.0.
+            p.mb-0 La primera versión oficial UML 1. Se lanzó en el año de 1997 con la unión y liderato de Booch, Rumbaugh y Jacobson, la cual ofrece una metodología que contiene varios estándares, #[strong donde su principal objetivo es que todos los diagramas tengan coherencia]. En el año 2005 se divulgó la versión de UML 2.0 cuyo contenido estaba orientado principalmente a la visión Orientada a Objetos, de ahí en adelante se realizan nuevas versiones basadas en UML 2.0.
 
     p(data-aos="fade-left").mb-5 A continuación, se muestra un recurso de aprendizaje con la evolución mencionada.
 
@@ -70,7 +70,7 @@
             figure
               img(src="@/assets/curso/temas/t1/t1_06.png", alt="alt").img180.m-auto
           .crd--avatarV--body
-            p.text-white.mb-0 Grady Booch, ingeniero de sistema e investigador, antes del 95.
+            p.text-white.mb-0 #[strong Grady Booch], ingeniero de sistema e investigador, antes del 95.
 
       .col-lg-3.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-left")
         .crd.crd--avatarV.clr--02
@@ -78,7 +78,7 @@
             figure
               img(src="@/assets/curso/temas/t1/t1_07.png", alt="alt").img180.m-auto
           .crd--avatarV--body
-            p.mb-0 Jim Rumbaugh (OMT), antes del 95.
+            p.mb-0 #[strong Jim Rumbaugh (OMT)], antes del 95.
 
       .col-lg-3.col-md-8.col-10(data-aos="flip-left")
         .crd.crd--avatarV.clr--01
@@ -86,7 +86,7 @@
             figure
               img(src="@/assets/curso/temas/t1/t1_08.png", alt="alt").img180.m-auto
           .crd--avatarV--body
-            p.text-white.mb-0 Ivar Jacobson, UML 0.8 y 0.91 1996
+            p.text-white.mb-0 #[strong Ivar Jacobson], UML 0.8 y 0.91 1996
 
     separador
 

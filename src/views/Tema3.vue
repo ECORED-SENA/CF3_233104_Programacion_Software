@@ -17,21 +17,21 @@
               .bg--white.brd--rad_02.shadow.p-3
                 figure.mb-4
                   img(src="@/assets/curso/temas/t3/t3_02.svg", alt="alt").img75.m-auto
-                h4.text-center.mb-2  Cómo
+                h4.text-center.mb-1  Cómo
                 p.text-center (Rol del usuario)
 
             .col-lg-4.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-left")
               .bg--white.brd--rad_02.shadow.p-3
                 figure.mb-4
                   img(src="@/assets/curso/temas/t3/t3_03.svg", alt="alt").img75.m-auto
-                h4.text-center.mb-2  Quiero
+                h4.text-center.mb-1  Quiero
                 p.text-center (Objetivo)
 
             .col-lg-4.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-left")
               .bg--white.brd--rad_02.shadow.p-3
                 figure.mb-4
                   img(src="@/assets/curso/temas/t3/t3_04.svg", alt="alt").img75.m-auto
-                h4.text-center.mb-2 Para poder
+                h4.text-center.mb-1 Para poder
                 p.text-center (Beneficio)
 
         .col-xl-5.d-none.d-xl-flex(data-aos="zoom-in")
@@ -109,10 +109,10 @@
                   ul.fa-ul
                     li
                       i.fa-li.fas.fa-layer-group.txt--orange
-                      | #[span.text-white Se sabe quién (permite identificar los roles de valor)]
+                      | #[span.text-white Se sabe quién (permite identificar los roles de valor).]
                     li
                       i.fa-li.fas.fa-layer-group.txt--orange
-                      | #[span.text-white El que (permite identificar el problema que se resuelve)]
+                      | #[span.text-white El que (permite identificar el problema que se resuelve).]
                     li
                       i.fa-li.fas.fa-layer-group.txt--orange
                       | #[span.text-white Para qué (lo que se espera lograr con la construcción de la historia de usuario).]  
@@ -146,16 +146,16 @@
                   ul.fa-ul
                     li
                       i.fa-li.fas.fa-layer-group.txt--orange
-                      | #[span.text-white ¿Existe un máximo de boletas para la venta?]
+                      | #[span.text-white ¿Existe un máximo de boletas para la venta?.]
                     li
                       i.fa-li.fas.fa-layer-group.txt--orange
-                      | #[span.text-white Si, solo 3 por cada usuario cuando estén en promoción]
+                      | #[span.text-white Si, solo 3 por cada usuario cuando estén en promoción.]
                     li
                       i.fa-li.fas.fa-layer-group.txt--orange
-                      | #[span.text-white ¿Qué medios existen para realizar el pago de las boletas?]   
+                      | #[span.text-white ¿Qué medios existen para realizar el pago de las boletas?.]   
                     li
                       i.fa-li.fas.fa-layer-group.txt--orange
-                      | #[span.text-white Efectivo y Tarjeta]  
+                      | #[span.text-white Efectivo y Tarjeta.]  
 
                   p.text-white #[strong Como se mencionó anteriormente la conversación se hace con el fin de entender el problema que se quiere resolver.]  
 
@@ -217,7 +217,7 @@
                 p.text-center.mb-0 Realizar criterios de aceptación claros y específicos.
 
         .cajon.cjn--yellow.p-4.mb-4(data-aos="zoom-in")
-          p.mb-0  Así como son necesarias estas reglas, también es fundamental una buena redacción de las historias de usuario, por esto se presenta a continuación un método que facilita afianzar la calidad en la escritura de una historia de usuario: el método “Invest”.
+          p.mb-0  Así como son necesarias estas reglas, también es fundamental una buena redacción de las historias de usuario, por esto se presenta a continuación un método que facilita afianzar la calidad en la escritura de una historia de usuario: el método “#[em Invest]”.
 
     .row.justify-content-center.mb-5(data-aos="zoom-in")
       .col-lg-10
@@ -227,7 +227,7 @@
               figure
                 img(src="@/assets/curso/temas/t3/t3_13.svg", alt="alt").img65.m-auto
             .col-lg
-              p.text-white Una buena guía para redactar Historias de Usuario con calidad es seguir el acrónimo INVEST, como se muestra a continuación:
+              p.text-white Una buena guía para redactar Historias de Usuario con calidad es seguir el acrónimo #[em INVEST], como se muestra a continuación:
               .row.justify-content-end.align-items-center
                 .col-auto
                   p.text-white.mb-0 #[strong Bill Wake 2003]
@@ -235,7 +235,7 @@
                   .squareOrange
 
     .titulo-sexto.color-acento-botones(data-aos="fade-left")        
-      span Método Invest
+      span Método #[em Invest]
 
     .row.justify-content-center.align-items-center.mb-5    
       .col-lg-2.col-md-4.col-6.mb-4.mb-lg-0(data-aos="flip-left")
@@ -292,7 +292,7 @@
                   img(src="@/assets/curso/temas/t3/t3_19.svg", alt="alt").img65.m-auto
                 p.text-center.mb-0 Testeable<br>(comprobable)
 
-    p(data-aos="fade-left").mb-5 Para profundizar en el tema se hace la descripción del método Invest, por lo que se le invita a revisar el siguiente recurso de aprendizaje:
+    p(data-aos="fade-left").mb-5 Para profundizar en el tema se hace la descripción del método #[em Invest], por lo que se le invita a revisar el siguiente recurso de aprendizaje:
 
     h3(data-aos="fade-right") Método #[em Invest]
     p(data-aos="fade-left") A continuación se hace una descripción de cada uno de los elementos que intervienen en este método.
@@ -330,8 +330,10 @@
     #t_3_2.titulo-segundo.color-acento-botones(data-aos="fade-right")
       h2 3.2 Ejemplos 
 
-    p(data-aos="fade-left") A continuación, se muestran algunos ejemplos prácticos de historias de usuario aplicando el método invest:
+    p.mb-5(data-aos="fade-left") A continuación, se muestran algunos ejemplos prácticos de historias de usuario aplicando el método #[em Invest]:
 
+    .titulo-quinto.color-acento-contenido.mb-4
+      h3.text-center Historia de usuario: “Crear Usuario”
 
     .row.justify-content-center.mb-5
       .col-xl-6.col-lg-9.mb-4(data-aos="zoom-in")
@@ -345,7 +347,7 @@
             p #[strong Para:] no moverme de casa.
 
             p Como se muestra en la primera opción de historia de usuario, se identifica el que quiere hacer, pero no el cómo lo va a realizar, no hay ningún detalle del ingreso a las compras en línea que seguramente se aclara en una siguiente reunión.
-            p.mb-0 Esta historia de usuario cumple con las características del método invest por lo que es sencilla, clara y satisface una necesidad, es específica lo cual lleva a tener una fácil estimación definiendo el tiempo de desarrollo.
+            p.mb-0 Esta historia de usuario cumple con las características del método #[em Invest] por lo que es sencilla, clara y satisface una necesidad, es específica lo cual lleva a tener una fácil estimación definiendo el tiempo de desarrollo.
 
 
       .col-xl-6.col-lg-9.mb-4(data-aos="zoom-in")
@@ -411,7 +413,7 @@
               h5.text-white.mb-1 Plantillas-Historias
               p.text-white.mb-0 Para visualizar una historia del usuario Épica se le invita a ver el siguiente recurso de aprendizaje denominado: ¨Plantillas-Historias¨.
             .col-sm-auto
-              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=DUjBnEvIm1M&list=PLM-p96nOrGcaw5dhv8wOA5tVVWEmXtA2F&index=5" target="_blank")
+              a.boton.color-acento-botones(:href="obtenerLink('/downloads/Plantillas_Historias.xlsx')" target="_blank")
                 span ver
                 i.fas.fa-link 
 
@@ -425,7 +427,7 @@
             figure
               img(src="@/assets/curso/recursos/rectangle_00.svg", alt="alt").img30
           .col
-            p.mb-0 Por lo anterior, no se cumpliría tampoco con la característica de estimación porque no se sabría cuándo se terminaría la historia. Como se puede notar en la descripción de los anteriores ejemplos el método Invest nos ofrece reglas para que la redacción de las historias de usuario sea óptimas y así lograr cumplir al cliente con lo que realmente necesita.
+            p.mb-0 Por lo anterior, no se cumpliría tampoco con la característica de estimación porque no se sabría cuándo se terminaría la historia. Como se puede notar en la descripción de los anteriores ejemplos el método #[em Invest] nos ofrece reglas para que la redacción de las historias de usuario sea óptimas y así lograr cumplir al cliente con lo que realmente necesita.
 
         .cajon.cjn--yellow.p-4.mb-4
           p.mb-0 Para realizar una buena gestión de proyectos, usualmente en las metodologías ágiles se usan una serie de herramientas para crear las historias de usuario como:
