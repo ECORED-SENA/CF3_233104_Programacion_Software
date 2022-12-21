@@ -10,7 +10,7 @@
     .fullbg.bg--gray.p-4.mb-5
       .row.justify-content-center
         .col-xl-7
-          p(data-aos="fade-left").mb-4 Las historias de Usuario son una forma sencilla de representar los requisitos de un sistema de información, son creadas en una o dos oraciones y sobre todo escritas en un lenguaje muy común y legible para el usuario. Son llamadas User Stories, convirtiéndose en un estándar muy utilizado en el momento de la definición de requisitos. Estas surgen en XP (1999) y se exaltan concluyentemente con Mike Cohn (en #[em “User Stories Applied: For Agile Software Development”], 2004) que establece el patrón para definirlas, siendo su simplicidad la razón de su popularidad, las cuales se muestran a continuación.
+          p(data-aos="fade-left").mb-4 Las historias de Usuario son una forma sencilla de representar los requisitos de un sistema de información, son creadas en una o dos oraciones y sobre todo escritas en un lenguaje muy común y legible para el usuario. Son llamadas #[em User Stories], convirtiéndose en un estándar muy utilizado en el momento de la definición de requisitos. Estas surgen en XP (1999) y se exaltan concluyentemente con Mike Cohn (en #[em “User Stories Applied: For Agile Software Development”], 2004) que establece el patrón para definirlas, siendo su simplicidad la razón de su popularidad, las cuales se muestran a continuación.
 
           .row.justify-content-center.align-items-center
             .col-lg-4.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-left")
@@ -57,7 +57,7 @@
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")(data-aos="zoom-in")
       .row.justify-content-center.ps-5(titulo="Tarjeta (Card)")
-        p Es una frase que sintetiza una necesidad dada en una conversación entre el usuario y el dueño del producto, escrita en una tarjeta, es comúnmente usada en el formato rol-objetivo- beneficio, como se muestro anteriormente, lo más importante es que son escritas teniendo en cuenta la visión el usuario.
+        p Es una frase que sintetiza una necesidad dada en una conversación entre el usuario y el dueño del producto, escrita en una tarjeta, es comúnmente usada en el formato rol-objetivo- beneficio, como se mostro anteriormente, lo más importante es que son escritas teniendo en cuenta la visión el usuario.
 
         .col-lg-6 
           p Su estructura es:  
@@ -123,7 +123,7 @@
           p Es el proceso en el que se comunica las personas que requieren las necesidades (dueño del producto) con las personas que saben cómo solucionarlas (desarrolladores) esto se hace de la siguiente forma: 
 
           .cajon.cjn--yellow.p-4.mb-4
-            p.mb-0 Por medio de preguntas, utilizando recursos como: gráficas, prototipos etc.
+            p.mb-0 Por medio de preguntas, utilizando recursos como: gráficas, prototipos, etc.
 
           p.mb-0 Lo anterior busca tener claridad y concretar el contenido de las historias de usuario.          
       
@@ -312,7 +312,7 @@
           .row(numero="4" titulo="Estimable")          
             p.mb-0 La estimación de la historia de usuario debe ser precisa para ayudar al cliente. La realización está a cargo del equipo de trabajo y se relaciona con el tamaño de la misma.
 
-          .row(numero="5" titulo="<em>small</em> (pequeña)")          
+          .row(numero="5" titulo="<em>Small</em> (pequeña)")          
             p.mb-0 Es fundamental el tamaño de la historia de usuario para disminuir y facilitar la estimación de la misma, es ideal definirla en semanas cortas o días.
 
           .row(numero="6" titulo="<em>Testeable</em> (comprobable)")          
@@ -411,7 +411,7 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               h5.text-white.mb-1 Plantillas-Historias
-              p.text-white.mb-0 Para visualizar una historia del usuario Épica se le invita a ver el siguiente recurso de aprendizaje denominado: ¨Plantillas-Historias¨.
+              p.text-white.mb-0 Para visualizar una historia del usuario Épica se le invita a ver el siguiente recurso de aprendizaje denominado: "Plantillas-Historias".
             .col-sm-auto
               a.boton.color-acento-botones(:href="obtenerLink('/downloads/Plantillas_Historias.xlsx')" target="_blank")
                 span ver
@@ -476,7 +476,7 @@
             td Quiero ver una lista de precios. 
             td Para poder elegir el producto más barato.
             td Despliegue una lista ordenada de productos por precio de menor a mayor.
-      figcaption Nota. https://bit.ly/3CJqa13
+      figcaption Nota. https://asesorias.com/empresas/wp-content/uploads/2020/05/Hisotorias-de-usuario-scrum-ej-1-1180x281.png
 
     
     .cajon.cjn--yellow.p-4.mb-4(data-aos="zoom-in")

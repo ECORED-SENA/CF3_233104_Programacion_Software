@@ -53,9 +53,9 @@ export default {
           },
           {
             icono: 'far fa-file-alt',
-            numero: '1.1',
+            numero: '1.2',
             titulo:
-              'Características generales de Lenguaje Unificado de Modelado UML',
+              'Características generales de Lenguaje Unificado de Modelado (UML)',
             hash: 't_1_2',
           },
         ],
@@ -223,14 +223,14 @@ export default {
     {
       tema: 'Ciclo de vida del desarrollo del <em>software</em>',
       referencia:
-        'Nicosiored. (2018, January 31). Diagrama de Actividades - 15 - Tutorial UML en español.',
+        'Euterna. (2020). SDLC-01. Ciclo del vida del Desarrollo del <em> Software</em>.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=7Wsm07RmDpk&ab_channel=Eduterna',
     },
     {
       tema: 'Modelo C4',
       referencia:
-        'hdeleon. net. (2020). Modelo de Arquitectura de <em>Software</em> C4 | Ejemplo práctico sencillo ',
+        'hdeleon. net. (2020). Modelo de Arquitectura de <em>Software</em> C4 | Ejemplo práctico sencillo   ',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=2IJ29e0xTDc&ab_channel=hdeleon.net',
@@ -360,13 +360,13 @@ export default {
         nombre: 'Zulema Yidney León Escobar',
         cargo: 'Experto temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Jonathan Guerrero Astaiza',
         cargo: 'Experto temático',
         centro:
-          'Centro de teleinformática y producción industrial - Regional Cauca',
+          'Centro de Teleinformática y Producción Industrial - Regional Cauca',
       },
       {
         nombre: 'Ana Vela Rodríguez Velásquez',
@@ -392,7 +392,8 @@ export default {
       {
         nombre: 'Javier Ricardo Luna Pineda',
         cargo: 'Diseñador instruccional',
-        centro: 'La Empresa Y Los Servicios - Centro De La Industria',
+        centro:
+          'Centro de La Industria, la Empresa y los Servicios - Regional Huila',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',

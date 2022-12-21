@@ -20,11 +20,11 @@
               figure
                 img(src="@/assets/curso/recursos/rectangle_00.svg", alt="alt").img30
             .col
-              p.mb-0 El lenguaje de Modelado Unificado UML proporciona un grupo de herramientas que facilitan realizar el modelado (análisis y diseño) de los sistemas que son orientados a objetos. Indicando una serie de normas técnicas que representan de manera gráfica el camino y la estructura de un sistema determinado a los programadores, analistas, desarrolladores, diseñadores etc.
+              p.mb-0 El lenguaje de Modelado Unificado UML proporciona un grupo de herramientas que facilitan realizar el modelado (análisis y diseño) de los sistemas que son orientados a objetos. Indicando una serie de normas técnicas que representan de manera gráfica el camino y la estructura de un sistema determinado a los programadores, analistas, desarrolladores, diseñadores, etc.
 
     .bloque-texto-g.cstm_right.p-3.p-sm-4.p-md-5.mb-4(data-aos="zoom-in")    
       .bloque-texto-g__texto.p-4
-        p “El UML (Lenguaje Unificado de Modelado) es una de las herramientas más emocionantes en el mundo actual del desarrollo de sistemas. Esto se debe a que permite a los creadores de sistemas generar diseños que capturen sus ideas en una forma convencional y fácil de comprender para comunicarlas a otras personas”. <br><br>Schmuller,2000, p.24.
+        p “El UML (Lenguaje Unificado de Modelado) es una de las herramientas más emocionantes en el mundo actual del desarrollo de sistemas. Esto se debe a que permite a los creadores de sistemas generar diseños que capturen sus ideas en una forma convencional y fácil de comprender para comunicarlas a otras personas”. <br><br>Schmuller, 2000, p.24.
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/t1/t1_02.png')})`}"
       )
@@ -98,7 +98,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/t1/t1_09.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Como se mencionó anteriormente UML es un lenguaje capaz de brindar unas reglas que facilitan la comunicación de un sistema por medio de representaciones gráficas de este, indicando como hacer la creación y la lectura de los modelos. Aunque hay una gran variedad de características del UML según ( Booch, 2006)  se pueden resumir en las que se nombran a continuación, por lo que le invito a revisar el siguiente recurso de aprendizaje:
+        p.mb-0 Como se mencionó anteriormente UML es un lenguaje capaz de brindar unas reglas que facilitan la comunicación de un sistema por medio de representaciones gráficas de este, indicando como hacer la creación y la lectura de los modelos. Aunque hay una gran variedad de características del UML según (Booch, 2006)  se pueden resumir en las que se nombran a continuación, por lo que le invito a revisar el siguiente recurso de aprendizaje:
 
     h3(data-aos="fade-right").mb-5 Lenguaje Unificado de Modelado (UML)
 

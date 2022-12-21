@@ -9,10 +9,10 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0(data-aos="fade-left")
-        p Estos son diagramas de comportamiento que se utilizan para representar una sucesión de actividades, explican el flujo de operaciones desde el punto en que inician hasta el punto final definiendo una variedad de caminos de decisiones en el desarrollo de eventos que abarca una actividad. (Booch, G. (1994). Ellos permiten visualizar un caso de uso específico a un nivel más preciso, ilustrando el flujo de actividades definidas en un sistema.
+        p Estos son diagramas de comportamiento que se utilizan para representar una sucesión de actividades, explican el flujo de operaciones desde el punto en que inician hasta el punto final definiendo una variedad de caminos de decisiones en el desarrollo de eventos que abarca una actividad. (Booch, G. (1994)). Ellos permiten visualizar un caso de uso específico a un nivel más preciso, ilustrando el flujo de actividades definidas en un sistema.
         p A continuación, podrá conocer los beneficios del diagrama de actividades
 
-        h4 beneficios
+        h4 Beneficios
 
         ul.fa-ul
           li

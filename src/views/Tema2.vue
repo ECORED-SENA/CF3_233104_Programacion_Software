@@ -77,7 +77,7 @@
       .col-xl-8
         p(data-aos="fade-left") Especifica un rol que ejecutará un usuario, representa a una persona o grupo de personas que interactúan con un #[em software], se representa mediante un hombre de palo “#[em stick man]” con el nombre del actor (obligatorio). El uso de los actores se realiza para mostrar la clase de usuario que participará en el sistema el cuál será el encargado de realizar una función, por lo que los nombres de los actores normalmente inician con Mayúscula.
 
-        p(data-aos="fade-left").mb-4 Existen varios tipos de actores según (Larman, 2002), los cuales se describen en la siguiente figura:
+        p(data-aos="fade-left").mb-4 Existen varios tipos de actores según (Larman, 2002), los cuales se describen a continuación:
 
         .row.justify-content-center
           .col-lg-4.col-md-6.col-md-8.col-10.mb-4.mb-lg-0(data-aos="flip-left")
@@ -268,7 +268,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-10.mb-5
-        h4(data-aos="fade-right") problema
+        h4(data-aos="fade-right") Problema
 
         .cajon.cjn--yellow.p-4(data-aos="zoom-in")
           p.mb-0  “Una empresa solicita tener un sistema que permita hacer el proceso de generación de factura de venta a un comerciante la cuál debe ser enviada por medio de un sistema externo que se encargará el proceso de la factura”.
@@ -462,7 +462,7 @@
       table       
         tr
           td(width="20%") #[strong Nombre del caso de uso]
-          td Indica el nombre del caso de uso. Normalmente, el nombre expresa el resultado objetivo y observable del caso de uso, como por ejemplo “Imprimir factura” en el caso de un de un sistema de ventas.
+          td Indica el nombre del caso de uso. Normalmente, el nombre expresa el resultado objetivo y observable del caso de uso, como por ejemplo “Imprimir factura” en el caso de un sistema de ventas.
         tr(width="80%").crd--gray
           td #[strong Autor]
           td Persona que diseña el caso de uso.
@@ -488,7 +488,7 @@
           td #[strong PosCondiciones ]
           td Son aquellas condiciones que se cumplen cuando finaliza un caso de uso.
 
-      figcaption Nota. https://bit.ly/3k66Sf3
+      figcaption Nota. https://www.academia.edu/4218624/Material_Casode_Uso
 
     p(data-aos="fade-left").mb-4 A continuación, se muestra un ejemplo de especificación de casos de uso para el caso de uso “Crear Foro” utilizando la plantilla propuesta posteriormente.
 
